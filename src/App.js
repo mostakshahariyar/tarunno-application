@@ -5,6 +5,8 @@ import Home from './component/Navbar/Home/Home';
 import About from './component/About/About';
 import Contact from './component/Contact/Contact';
 import Volunteer from './component/Volunteer/Volunteer';
+import Footer from './component/Footer/Footer';
+import NotFound from './component/NotFound/NotFound';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/volunteer' element={<Volunteer/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

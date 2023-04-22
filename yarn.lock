@@ -1603,6 +1603,11 @@
     "schema-utils" "^3.0.0"
     "source-map" "^0.7.3"
 
+"@react-icons/all-files@^4.1.0":
+  "integrity" "sha512-hxBI2UOuVaI3O/BhQfhtb4kcGn9ft12RWAFVMUeNjqqhLsHvFtzIkFaptBJpFDANTKoDfdVoHTKZDlwKCACbMQ=="
+  "resolved" "https://registry.npmjs.org/@react-icons/all-files/-/all-files-4.1.0.tgz"
+  "version" "4.1.0"
+
 "@remix-run/router@1.5.0":
   "integrity" "sha512-bkUDCp8o1MvFO+qxkODcbhSqRa6P2GXgrGZVpt0dCXNW2HCSCqYI0ZoAqEOSAjRWmmlKcYgFvN4B4S+zo/f8kg=="
   "resolved" "https://registry.npmjs.org/@remix-run/router/-/router-1.5.0.tgz"
@@ -7605,6 +7610,13 @@
     "regenerator-runtime" "^0.13.9"
     "whatwg-fetch" "^3.6.2"
 
+"react-awesome-slider@^4.1.0":
+  "integrity" "sha512-cbPI1MTpVLKbEH6gf9bwtJb8Ja6R/YJonKbUQehfq2B2AAJkgDMeHntaa4SgGCRqWd55xKiT+CkjfKau1QRsKw=="
+  "resolved" "https://registry.npmjs.org/react-awesome-slider/-/react-awesome-slider-4.1.0.tgz"
+  "version" "4.1.0"
+  dependencies:
+    "web-animation-club" "^0.6.0"
+
 "react-dev-utils@^12.0.1":
   "integrity" "sha512-84Ivxmr17KjUupyqzFode6xKhjwuEJDROWKJy/BthkL7Wn6NJ8h4WE6k/exAv6ImS+0oZLRRW5j/aINMHyeGeQ=="
   "resolved" "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-12.0.1.tgz"
@@ -7647,6 +7659,11 @@
   "integrity" "sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg=="
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz"
   "version" "6.0.11"
+
+"react-icons@^4.8.0":
+  "integrity" "sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.8.0.tgz"
+  "version" "4.8.0"
 
 "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
@@ -7738,7 +7755,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@^16 || ^17 || ^18", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.8":
+"react@*", "react@^16 || ^17 || ^18", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.8":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -9044,6 +9061,11 @@
   "version" "1.7.3"
   dependencies:
     "minimalistic-assert" "^1.0.0"
+
+"web-animation-club@^0.6.0":
+  "integrity" "sha512-9W+EQu1HiaPLe/7WZlhJ2ULqQ4VL80RPDYW+ZcjfTKp6ayOuT1k3SVO6+tu0VBRmOqueJ/mrG+rjjInIv8Aglg=="
+  "resolved" "https://registry.npmjs.org/web-animation-club/-/web-animation-club-0.6.0.tgz"
+  "version" "0.6.0"
 
 "web-vitals@^2.1.4":
   "integrity" "sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg=="
