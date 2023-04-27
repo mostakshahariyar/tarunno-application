@@ -35,6 +35,7 @@ const Contact = () => {
 
                                         </div>
                                 </div>
+                                <hr className='my-4' />
                                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-24 my-4'>
                                         <div>
                                                 <p className='flex items-center font-bold tracking-widest text-2xl font-mono mb-8 sm:mb-0'> <span className='px-2'><MdOutlineTouchApp /></span> Get In Touch</p>
@@ -45,6 +46,7 @@ const Contact = () => {
                                                 <p className='flex items-center font-medium text-base indent-2'><span><MdOutlineAttachEmail /></span>tarunnosocitey.bd@gmail.com</p>
                                         </div>
                                 </div>
+                                <hr className='my-4' />
                                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-24 my-4'>
                                         <div>
                                                 <p className='flex items-center font-bold tracking-widest text-2xl font-mono mb-8 sm:mb-0'> <span className='px-2'><MdOutlineContactless /></span> Contact Us</p>
@@ -59,7 +61,7 @@ const Contact = () => {
                                                         </Link>
                                                 </p>
                                                 <p>
-                                                        <Link to="https://wa.me/01761208866" className='flex items-center font-medium text-base indent-2 underline hover:no-underline hover:text-green-700'>
+                                                        <Link to="https://wa.me/8801761208866/" className='flex items-center font-medium text-base indent-2 underline hover:no-underline hover:text-green-700'>
                                                                 <span><ImWhatsapp />
                                                                 </span>
                                                                 What's App
