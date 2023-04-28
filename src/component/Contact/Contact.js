@@ -11,9 +11,27 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
         return (
                 <div>
-                        <div className="contact-image">
+                        <div
+                                data-aos="fade-up"
+                                data-aos-offset="200"
+                                data-aos-delay="10"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                data-aos-once="false"
+                                data-aos-anchor-placement="top-center"
+                                className="contact-image">
                                 <div className=' md:ml-8 ml-2 backdrop-blur-sm'>
-                                        <div className='pt-5'>
+                                        <div
+                                                data-aos="fade-up"
+                                                data-aos-offset="200"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in-out"
+                                                data-aos-mirror="true"
+                                                data-aos-once="false"
+                                                data-aos-anchor-placement="top-center"
+                                                className='pt-5'>
                                                 <h1 className='text-white text-5xl font-bold'>Get in touch</h1>
                                                 <p className='text-white text-xl font-mono p-2 md:w-1/2 mt-6'>If you have and problem contact us. Or if you have any quarry touch us or sent email. Thank you very much.
                                                 </p>
@@ -25,10 +43,20 @@ const Contact = () => {
 
                         <section className='address my-6 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
                                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-24'>
-                                        <div>
-                                                <p className='flex items-center mb-8 sm:mb-0 font-bold tracking-widest text-2xl font-mono'><span className='px-2'><GrLocation /></span> Location</p>
+
+                                        <div
+                                                data-aos="fade-right"
+                                                data-aos-offset="300"
+                                                data-aos-easing="ease-in-sine"
+                                        >
+                                                <p
+                                                        className='flex items-center mb-8 sm:mb-0 font-bold tracking-widest text-2xl font-mono'><span className='px-2'><GrLocation /></span> Location</p>
                                         </div>
-                                        <div className='grid gap-y-2 sm:mx-0 mx-8'>
+                                        <div
+                                                data-aos="fade-left"
+                                                data-aos-offset="300"
+                                                data-aos-easing="ease-in-sine"
+                                                className='grid gap-y-2 sm:mx-0 mx-8'>
                                                 <p className='font-bold tracking-widest text-2xl font-mono'>Bangladesh</p>
                                                 <p className='font-medium text-base indent-2'>Road 10, Sector 10</p>
                                                 <p className='font-medium text-base indent-2'>Uttara, Dhaka-1230</p>
@@ -37,10 +65,18 @@ const Contact = () => {
                                 </div>
                                 <hr className='my-4' />
                                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-24 my-4'>
-                                        <div>
-                                                <p className='flex items-center font-bold tracking-widest text-2xl font-mono mb-8 sm:mb-0'> <span className='px-2'><MdOutlineTouchApp /></span> Get In Touch</p>
+                                        <div
+                                                data-aos="fade-right"
+                                                data-aos-offset="300"
+                                                data-aos-easing="ease-in-sine">
+                                                <p className='flex items-center font-bold tracking-widest text-2xl font-mono mb-8 sm:mb-0'> <span className='px-2'><MdOutlineTouchApp /></span> Get In Touch
+                                                </p>
                                         </div>
-                                        <div className='grid gap-y-2 sm:mx-0 mx-8'>
+                                        <div
+                                                data-aos="fade-left"
+                                                data-aos-offset="300"
+                                                data-aos-easing="ease-in-sine"
+                                                className='grid gap-y-2 sm:mx-0 mx-8'>
                                                 <p className='font-bold tracking-widest text-2xl font-mono'>Bangladesh</p>
                                                 <p className='flex items-center font-medium text-base indent-2'><span><AiOutlinePhone /></span>+880 1728-370093</p>
                                                 <p className='flex items-center font-medium text-base indent-2'><span><MdOutlineAttachEmail /></span>tarunnosocitey.bd@gmail.com</p>
@@ -48,10 +84,18 @@ const Contact = () => {
                                 </div>
                                 <hr className='my-4' />
                                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-24 my-4'>
-                                        <div>
+                                        <div
+                                                data-aos="fade-right"
+                                                data-aos-offset="300"
+                                                data-aos-easing="ease-in-sine"
+                                        >
                                                 <p className='flex items-center font-bold tracking-widest text-2xl font-mono mb-8 sm:mb-0'> <span className='px-2'><MdOutlineContactless /></span> Contact Us</p>
                                         </div>
-                                        <div className='grid gap-y-2 sm:mx-0 mx-8'>
+                                        <div
+                                                data-aos="fade-left"
+                                                data-aos-offset="300"
+                                                data-aos-easing="ease-in-sine"
+                                                className='grid gap-y-2 sm:mx-0 mx-8'>
                                                 <p className='font-bold tracking-widest text-2xl font-mono'>Bangladesh</p>
                                                 <p>
                                                         <Link to="https://www.facebook.com/tarunnosocietybd" className='flex items-center font-medium text-base indent-2 underline hover:no-underline hover:text-green-700'>
@@ -73,7 +117,15 @@ const Contact = () => {
                         </section>
 
                         {/* contact form */}
-                        <section className='rounded-xl contact-form my-6 mx-auto max-w-7xl p-4 sm:px-6 lg:px-8 bg-[#9bc4e2]'>
+                        <section
+                                data-aos="fade-up"
+                                data-aos-offset="200"
+                                data-aos-delay="10"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                data-aos-once="false"
+                                data-aos-anchor-placement="top-center" className='rounded-xl contact-form my-6 mx-auto max-w-7xl p-4 sm:px-6 lg:px-8 bg-[#9bc4e2]'>
                                 <form>
                                         <div className="space-y-12">
                                                 <div className="border-b border-gray-900/10 pb-12">
@@ -90,7 +142,7 @@ const Contact = () => {
                                                                                         name="first-name"
                                                                                         id="first-name"
                                                                                         autoComplete="given-name"
-                                                                                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                                                                        className="block w-full px-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                                                                 />
                                                                         </div>
                                                                 </div>
@@ -105,7 +157,7 @@ const Contact = () => {
                                                                                         name="contact-phone"
                                                                                         id="contact-phone"
                                                                                         autoComplete="family-name"
-                                                                                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                                                                        className="block w-full px-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                                                                 />
                                                                         </div>
                                                                 </div>
@@ -120,7 +172,7 @@ const Contact = () => {
                                                                                         name="contact-email"
                                                                                         type="email"
                                                                                         autoComplete="family-name"
-                                                                                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                                                                        className="block w-full px-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                                                                 />
                                                                         </div>
                                                                 </div>
@@ -135,7 +187,7 @@ const Contact = () => {
                                                                                         name="contact-subject"
                                                                                         type="text"
                                                                                         autoComplete="email"
-                                                                                        className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                                                                        className="block w-full px-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                                                                 />
                                                                         </div>
                                                                 </div>
@@ -153,7 +205,7 @@ const Contact = () => {
                                                                                 id="contact-message"
                                                                                 name="contact-message"
                                                                                 rows={3}
-                                                                                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                                                                className="block w-full rounded-md border-0 px-1 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                                                                 defaultValue={''}
                                                                         />
                                                                 </div>
