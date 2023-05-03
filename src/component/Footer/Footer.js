@@ -9,8 +9,16 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
         return (
-                <div className='py-8 mt-10 bg-gray-400'>
-                        <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8  content-center'>
+                <div
+                        data-aos="fade-up"
+                        data-aos-delay="50"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-out"
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        className='py-8 mt-10 bg-gray-400'>
+                        <div
+                                className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8  content-center'>
                                 <div class="grid md:grid-cols-2 sm:grid-cols-1 xl:grid-cols-4 gap-8 items-center">
                                         {/* logo  */}
                                         <div>
@@ -29,10 +37,10 @@ const Footer = () => {
                                                         <p className='font-mono text-xl font-bold tracking-wide'>Quick Link</p>
                                                 </div>
                                                 <div className='grid gap-y-3'>
-                                                        <Link to='/about' className='flex items-center underline font-medium hover:no-underline hover:text-green-700'><span><IoIosArrowForward /></span> About Us</Link>
-                                                        <Link to='/' className='flex items-center underline font-medium hover:no-underline hover:text-green-700'><span><IoIosArrowForward /></span>Causes</Link>
-                                                        <Link to='/volunteer' className='flex items-center underline font-medium hover:no-underline hover:text-green-700'><span><IoIosArrowForward /></span>Volunteer</Link>
-                                                        <Link to='/contact' className='flex items-center underline font-medium hover:no-underline hover:text-green-700'><span><IoIosArrowForward /></span>Contact</Link>
+                                                        <Link to='/about' className='flex items-center underline font-medium transition duration-700 hover:no-underline hover:text-green-700'><span><IoIosArrowForward /></span> About Us</Link>
+                                                        <Link to='/' className='flex items-center underline font-medium transition duration-700 hover:no-underline hover:text-green-700'><span><IoIosArrowForward /></span>Causes</Link>
+                                                        <Link to='/volunteer' className='flex items-center underline font-medium transition duration-700 hover:no-underline hover:text-green-700'><span><IoIosArrowForward /></span>Volunteer</Link>
+                                                        <Link to='/contact' className='flex items-center underline font-medium transition duration-700 hover:no-underline hover:text-green-700'><span><IoIosArrowForward /></span>Contact</Link>
                                                 </div>
                                         </div>
                                         {/* contact */}
@@ -42,8 +50,8 @@ const Footer = () => {
                                                 </div>
                                                 <div className='grid gap-y-3'>
                                                         <p className='flex items-center font-medium'><span className='px-3'><TbBrandGoogleHome /></span>Road #10, Sector 10, Uttara, Dhaka-1230</p>
-                                                        <p className='flex items-center font-medium'><span className='px-3'><AiOutlinePhone /></span>+880 1728-370093</p>
-                                                        <a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmlkCMcQCNskWxlVCXTZkkRCsVsbWFTQQPBQZgXGzfqXctBCKlZJHZcLmsKXsDJcntPQCP' className='flex items-center font-medium underline hover:no-underline hover:text-green-700'><span className='px-3'><MdOutlineAttachEmail /></span>tarunnosocitey.bd@gmail.com</a>
+                                                        <p className='flex items-center  font-medium'><span className='px-3'><AiOutlinePhone /></span>+880 1728-370093</p>
+                                                        <a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmlkCMcQCNskWxlVCXTZkkRCsVsbWFTQQPBQZgXGzfqXctBCKlZJHZcLmsKXsDJcntPQCP' className='flex items-center font-medium underline transition duration-700 hover:no-underline hover:text-green-700'><span className='px-3'><MdOutlineAttachEmail /></span>tarunnosocitey.bd@gmail.com</a>
                                                 </div>
                                         </div>
                                         {/* gallery */}
@@ -79,7 +87,8 @@ const Footer = () => {
                         </div>
                         <hr className='my-4' />
                         <div className='flex items-center justify-center'>
-                                <p className='flex items-center font-medium'>copyright <span><AiOutlineCopyright/></span> tarunnosocitey2023</p>
+                                <p
+                                        className='flex items-center font-medium'>copyright <span><AiOutlineCopyright /></span> tarunnosocitey2023</p>
                         </div>
                 </div>
         );

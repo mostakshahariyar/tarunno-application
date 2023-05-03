@@ -98,14 +98,14 @@ const Contact = () => {
                                                 className='grid gap-y-2 sm:mx-0 mx-8'>
                                                 <p className='font-bold tracking-widest text-2xl font-mono'>Bangladesh</p>
                                                 <p>
-                                                        <Link to="https://www.facebook.com/tarunnosocietybd" className='flex items-center font-medium text-base indent-2 underline hover:no-underline hover:text-green-700'>
+                                                        <Link to="https://www.facebook.com/tarunnosocietybd" className='flex items-center font-medium text-base indent-2 underline transition duration-700 hover:no-underline hover:text-green-700'>
                                                                 <span className='text-xl'><RiFacebookCircleLine />
                                                                 </span>
                                                                 Tarunno Society
                                                         </Link>
                                                 </p>
                                                 <p>
-                                                        <Link to="https://wa.me/8801761208866/" className='flex items-center font-medium text-base indent-2 underline hover:no-underline hover:text-green-700'>
+                                                        <Link to="https://wa.me/8801761208866/" className='flex items-center transition duration-700 font-medium text-base indent-2 underline hover:no-underline hover:text-green-700'>
                                                                 <span><ImWhatsapp />
                                                                 </span>
                                                                 What's App
@@ -120,8 +120,8 @@ const Contact = () => {
                         <section
                                 data-aos="fade-up"
                                 data-aos-offset="200"
-                                data-aos-delay="10"
-                                data-aos-duration="1000"
+                                data-aos-delay="50"
+                                data-aos-duration="500"
                                 data-aos-easing="ease-in-out"
                                 data-aos-mirror="true"
                                 data-aos-once="false"
@@ -216,7 +216,7 @@ const Contact = () => {
                                         <div className="mt-6 flex items-center justify-end gap-x-6">
                                                 <button
                                                         type="submit"
-                                                        className="rounded-md bg-gray-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+                                                        className="rounded-md bg-gray-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition duration-700focus-visible:outline-gray-600"
                                                 >
                                                         Sent
                                                 </button>

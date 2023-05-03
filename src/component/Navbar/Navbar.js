@@ -55,7 +55,7 @@ export default function Example() {
                                                                                                 key={item.name}
                                                                                                 to={item.href}
                                                                                                 className={classNames(
-                                                                                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-900 hover:bg-gray-700 hover:text-white',
+                                                                                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-900 hover:bg-gray-700 hover:text-white transition duration-700',
                                                                                                         'rounded-md px-3 py-2 text-sm font-medium'
                                                                                                 )}
                                                                                                 aria-current={item.current ? 'page' : undefined}
@@ -101,7 +101,7 @@ export default function Example() {
                                                                                                 {({ active }) => (
                                                                                                         <Link
                                                                                                                 to="/"
-                                                                                                                className={classNames(active ? 'bg-gray-100' : 'text-white', 'block px-4 py-2 text-sm text-white-700')}
+                                                                                                                className={classNames(active ? 'bg-gray-100' : 'text-white', 'block px-4 transition duration-700 py-2 text-sm text-white-700')}
                                                                                                         >
                                                                                                                 Your Profile
                                                                                                         </Link>
@@ -111,7 +111,7 @@ export default function Example() {
                                                                                                 {({ active }) => (
                                                                                                         <Link
                                                                                                                 to="/"
-                                                                                                                className={classNames(active ? 'bg-gray-100' : 'text-white', 'block px-4 py-2 text-sm text-white-700')}
+                                                                                                                className={classNames(active ? 'bg-gray-100' : 'text-white', 'block px-4 transition duration-700 py-2 text-sm text-white-700')}
                                                                                                         >
                                                                                                                 Settings
                                                                                                         </Link>
@@ -121,7 +121,7 @@ export default function Example() {
                                                                                                 {({ active }) => (
                                                                                                         <Link
                                                                                                                 to="/"
-                                                                                                                className={classNames(active ? 'bg-gray-100' : 'text-white', 'block px-4 py-2 text-sm text-white-700')}
+                                                                                                                className={classNames(active ? 'bg-gray-100' : 'text-white', 'block px-4 transition duration-700 py-2 text-sm text-white-700')}
                                                                                                         >
                                                                                                                 Sign out
                                                                                                         </Link>
